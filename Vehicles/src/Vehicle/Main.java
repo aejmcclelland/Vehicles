@@ -14,7 +14,7 @@ public class Main {
 		bicycle.wheels = 2;
 		bicycle.colour = "Black";
 		bicycle.vehicleType = "Road bike";
-		bicycle.setFuelType(FuelTypes.LEG_POWERED);
+		bicycle.setFuelType(FuelTypes.LEG_POWER);
 		
 		FuelTypes[] availableTypes = Vehicle.getAvailableFuelTypes();
 
